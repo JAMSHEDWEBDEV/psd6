@@ -1,0 +1,400 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.navbar-nav .nav-item .nav-link{
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 700;
+	font-size: 21px;
+	padding: 0 15px;
+	color: white;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: red;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link i{
+	color: #dab33e;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link i:hover{
+	color: white;
+	transition: all linear .4s;
+}
+
+/*banner part css start*/
+
+#banner{
+	background: url(../images/banner_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner_overlay{
+	background: rgba(0, 0, 0, 0.1);
+	padding: 150px 0 100px;
+	text-align: center;
+}
+.banner_overlay h1{
+	font-family: 'YesevaOne';
+	font-weight:700;
+	font-size:90px;
+	color: white;
+	padding-bottom: 15px;
+}
+.btn{
+	border: none;
+}
+.btn button{
+	height: 40px;
+	width: 200px;
+	border: none;
+	margin: 20px  15px 0;
+	 background: rgba(0, 0, 0, 0.5);
+	 color: white;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 400;
+	 font-size: 18px;
+	 transition: all linear .4s;
+}
+.btn button:hover{
+	color: teal;
+	transition: all linear .4s;
+}
+.btn .btn1 button{
+	height: 40px;
+	width: 200px;
+     background: rgba(255, 255, 255, 0.3);
+     transition: all linear .4s;
+}
+.btn .btn1 button:hover{
+	color: black;
+	transition: all linear .4s;
+}
+
+/*banner part css end*/
+
+
+/*about part css start*/
+
+.about_content{
+	text-align: center;
+	margin-top: 100px;
+}
+.about_content h1{
+	font-family: 'YesevaOne';
+	font-size: 36px;
+	font-weight: 400;
+	color: #cc9900;
+}
+.about_content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.about_content img{
+	margin: 10px 0 20px;
+}
+.round_image{
+	text-align: center;
+	margin-top: 60px;
+}
+.about_right img{
+	margin: 40px 0 20px;
+}
+
+/*about part css end*/
+
+/*gallery part css start*/
+
+
+.gallery_image{
+	position: relative;
+	text-align: center;
+}
+.gallery_overlay{
+	position: absolute;
+	top: 80px;
+	left: 700px;
+	height: 500px;
+	width: 500px;
+	padding: 50px 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.gallery_overlay h1{
+	font-family: 'YesevaOne';
+	font-size: 36px;
+	font-weight: 400;
+	color: white;
+}
+.gallery_overlay p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	padding: 30px 30px 40px;
+}
+.gallery_overlay img{
+	padding: 0 15px;
+}
+
+/*gallery part css end*/
+
+/*service part html start*/
+
+.left_content {
+	text-align: center;
+	font-family: 'YesevaOne';
+	font-size: 36px;
+	font-weight: 400;
+	color: #cc9900;
+	margin-top: 60px;
+}
+.left_content img{
+	margin: 0 0 30px;
+}
+.service_chart h3{
+	font-family: 'YesevaOne';
+	font-size: 21px;
+	font-weight: 400;
+	color: #cc9900;
+}
+.service_chart h4{
+	text-align: right;
+	margin: -35px 5px 0 0;
+	font-family: 'YesevaOne';
+	font-size: 21px;
+	font-weight: 400;
+	color: #cc9900;
+	padding: 0 10px 5px 0;
+}
+.button{
+	text-align: right;
+}
+.button button{
+    height: 30px;
+	width: 100px;
+	border: none;
+	background-color: #dbc178;
+	color: white;
+	transition: all linear .5s;
+}
+.button button:hover{
+	background-color: red;
+	color: black;
+	transition: all linear .5s;
+}
+.service_chart p{
+	border-top: 1px solid #cc9900;
+	height: 1px;
+	width: 400px;
+	padding: 5px 0 20px;
+	font-family: 'YesevaOne';
+	font-weight: 400;
+	font-size: 16px;
+	color: #4c4c4c;
+}
+.service_middle{
+	border: 1px solid #cc9900;
+	height: 80px;
+    width: 420px;
+	padding: 10px 10px 0;
+	margin-bottom: 10px;
+}
+.service_main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*service part html end*/
+
+/*review part css start*/
+
+.review_image{
+	position: relative;
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.review_overlay{
+	position: absolute;
+	top: 80px;
+	left: 400px;
+	height: 500px;
+	width: 600px;
+	padding: 50px 40px;
+	background: rgba(0, 0, 0, 0.7);
+}
+.review_overlay img{
+	padding-bottom: 20px;
+}
+.review_overlay h1{
+	font-family: 'YesevaOne';
+	font-size: 36px;
+	font-weight: 600;
+	color: white;
+}
+.review_overlay p{
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: white;
+}
+
+/*review part css end*/
+
+/*contact part css start*/
+
+.food_image{
+	margin: 100px 0;
+}
+.contact_content{
+	text-align: center;
+	margin: 100px 0;
+}
+.contact_content h1{
+	font-family: 'YesevaOne';
+	font-size: 36px;
+	font-weight: 600;
+	color: #cc9900;
+}
+.contact_content img{
+	margin-bottom: 30px;
+}
+.contact_content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #5c5c5c;
+}
+.contact_form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -80px;
+}
+.contact_left label{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cc9900;
+	padding-bottom: 5px;
+}
+.contact_left input{
+	height: 30px;
+	width: 200px;
+	padding: 0 5px;
+	border: 1px solid #c8c6c6;
+}
+.contact_left input:hover{
+	border: 1px solid #cc9900;
+}
+.contact_right label{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cc9900;
+	padding-bottom: 5px;
+}
+.contact_right input{
+	height: 30px;
+	width: 200px;
+	padding: 0 5px;
+	border: 1px solid #c8c6c6;
+}
+.contact_right input:hover{
+	border: 1px solid #cc9900;
+}
+.contact_right select{
+	height: 30px;
+	width: 200px;
+	background-color: white;
+	border: 1px solid #c8c6c6;
+	color:#868686;
+}
+.contact_right select:hover{
+	border: 1px solid #cc9900;
+}
+.contact_btn{
+	text-align: center;
+	margin-top: 30px;
+}
+.contact_btn button{
+   height: 40px;
+   width: 200px;
+   background-color: #cc9900;
+   border: none;
+   font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	transition: all linear .4s;
+	border: 1px solid #cc9900;
+}
+.contact_btn button:hover{
+	background-color: whitesmoke;
+	border: 1px solid #cc9900;
+	color: black;
+	transition: all linear .4s;
+}
+.contact_left span{
+	color: red;
+	font-size: 20px;
+}
+.contact_right span{
+	color: red;
+	font-size: 20px;
+}
+/*contact part css end*/
+
+/*footer part css start*/
+
+#footer{
+	background: #191919;
+}
+.footer_content{
+	text-align: center;
+	margin: 50px 0;
+}
+.footer_content img{
+	margin-bottom: 20px;
+}
+.footer_content h1{
+    font-family: 'YesevaOne';
+	font-size: 21px;
+	font-weight: 700;
+	color: white;
+}
+.footer_content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+.footer_icon{
+	text-align: center;
+}
+.footer_icon i{
+	padding: 0 10px;
+	color: white;
+	transition: all linear .4s;
+}
+.footer_icon i:hover{
+	color: red;
+	transition: all linear .4s;
+}
+
+/*footer part css end*/
+

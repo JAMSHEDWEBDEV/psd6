@@ -1,0 +1,290 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: gray;
+	color: indigo;
+}
+.nav-item i{
+	display: none;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	font-size: 30px;
+	margin-top: 150px;
+}
+
+/*banner part responsive code end*/
+
+
+/*service part responsive code start*/
+
+.service_chart{
+	width: 280px;
+}
+.service_chart p{
+	font-size: 12px;
+}
+/*service part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_btn{
+	margin-bottom: 30px;
+}
+
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_icon{
+	margin-bottom: 30px;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	text-align: center;
+	margin: 2px 0;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: silver;
+	color: black;
+}
+.nav-item i{
+	display: none;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	font-size: 45px;
+	margin-top: 180px;
+}
+
+/*banner part responsive code end*/
+
+/*review part responsive code start*/
+
+.review_overlay{
+	display: none;
+}
+
+/*review part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_btn{
+	margin-bottom: 40px;
+}
+
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_icon{
+	margin-bottom: 30px;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: snow;
+	color: indigo;
+}
+.nav-item i{
+	display: none;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	font-size: 50px;
+	margin-top: 150px;
+}
+
+/*banner part responsive code end*/
+
+/*about part responsive code start*/
+
+.round_image{
+	margin-bottom: 30px;
+}
+.about_right img{
+	margin-top: 180px;
+}
+
+/*about part responsive code end*/
+
+/*gallery part responsive code start*/
+
+.gallery_overlay{
+	margin: -40px 0 0 -500px;
+	height: 300px;
+}
+.gallery_overlay h1{
+	font-size: 20px;
+	margin-top: -30px;
+}
+.gallery_overlay p{
+	font-size: 12px;
+	margin-top: -20px;
+}
+.gallery_round_image{
+	margin-top: -40px;
+}
+
+/*gallery part responsive code end*/
+
+/*review part responsive code start*/
+
+.review_overlay{
+	margin: -40px 0 0 -300px;
+	height: 300px;
+}
+.review_overlay h1{
+	font-size: 20px;
+	margin-top: -30px;
+}
+.review_overlay p{
+	font-size: 18px;
+}
+
+/*review part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_icon{
+	margin-bottom: 30px;
+}
+
+/*footer part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding: 0 10px;
+}
+
+/*navigation part responsive code end*/
+
+/*about part responsive code start*/
+
+.round_image{
+	margin-bottom: 30px;
+}
+
+/*about part responsive code end*/
+
+/*gallery part responsive code start*/
+
+.gallery_overlay{
+	margin: -40px 0 0 -300px;
+	height: 400px;
+}
+.gallery_overlay h1{
+	margin-top: -20px;
+}
+.gallery_overlay p{
+	font-size: 15px;
+	margin-top: -10px;
+}
+.gallery_round_image{
+	margin-top: -40px;
+}
+
+/*gallery part responsive code end*/
+
+/*review part responsive code start*/
+
+.review_overlay{
+	margin: -20px 0 0 -200px;
+	height: 370px;
+}
+.review_overlay h1{
+	margin-top: -20px;
+}
+.review_overlay p{
+	font-size: 20px;
+}
+
+/*review part responsive code end*/
+
+
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+/*gallery part responsive code start*/
+
+.gallery_overlay{
+	margin: -35px 0 0 -200px;
+}
+
+/*gallery part responsive code end*/
+
+/*review part responsive code start*/
+
+.review_overlay{
+	margin-top: -40px;
+}
+
+/*review part responsive code end*/
+
+
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}
